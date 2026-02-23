@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Decision Making Courses - 30+ Online Courses from Top Platforms</title>
+    <meta name="description" content="Curated collection of 30+ free online courses on decision making, critical thinking, and behavioral economics from Coursera, edX, Khan Academy and more.">
+    <meta name="keywords" content="free decision making courses, online courses critical thinking, behavioral economics course, decision science MOOC, free learning">
+    <link rel="canonical" href="https://henu-wang.github.io/decision-making-courses/">
+    <meta property="og:title" content="Free Decision Making Courses - 30+ Curated Online Courses">
+    <meta property="og:description" content="Learn decision making for free. 30+ courses from Coursera, edX, Khan Academy, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://henu-wang.github.io/decision-making-courses/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: { extend: { colors: { primary: '#7c3aed', accent: '#f59e0b', dark: '#1e293b' } } }
+    }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <h1 class="text-xl font-bold text-dark">Free Decision Courses</h1>
+            <nav class="hidden md:flex gap-4 text-sm">
+                <a href="#critical-thinking" class="hover:text-primary">Critical Thinking</a>
+                <a href="#behavioral" class="hover:text-primary">Behavioral Science</a>
+                <a href="#data-driven" class="hover:text-primary">Data-Driven</a>
+                <a href="#leadership" class="hover:text-primary">Leadership</a>
+                <a href="#investing" class="hover:text-primary">Investing</a>
+                <a href="#philosophy" class="hover:text-primary">Philosophy</a>
+            </nav>
+            <button id="menuBtn" class="md:hidden text-2xl">&#9776;</button>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden px-4 pb-4 space-y-2 text-sm">
+            <a href="#critical-thinking" class="block py-1">Critical Thinking</a>
+            <a href="#behavioral" class="block py-1">Behavioral Science</a>
+            <a href="#data-driven" class="block py-1">Data-Driven</a>
+            <a href="#leadership" class="block py-1">Leadership</a>
+            <a href="#investing" class="block py-1">Investing</a>
+            <a href="#philosophy" class="block py-1">Philosophy</a>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-br from-purple-600 to-purple-800 text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">30+ Free Decision Making Courses</h2>
+            <p class="text-lg opacity-90 mb-4">Curated from Coursera, edX, Khan Academy, MIT OCW & more</p>
+            <p class="text-sm opacity-75">Also try <a href="https://keeprule.com/en/" class="underline hover:opacity-100" target="_blank" rel="noopener">KeepRule</a> for practical decision scenarios</p>
+        </div>
+    </section>
+
+    <div class="max-w-6xl mx-auto px-4 py-6">
+        <div class="flex flex-col md:flex-row gap-4 items-center">
+            <input type="text" id="searchInput" placeholder="Search courses..." class="flex-1 w-full border rounded-lg px-4 py-2 text-sm focus:ring-2 focus:ring-primary focus:outline-none">
+            <select id="platformFilter" class="border rounded-lg px-4 py-2 text-sm">
+                <option value="">All Platforms</option>
+                <option value="Coursera">Coursera</option>
+                <option value="edX">edX</option>
+                <option value="Khan Academy">Khan Academy</option>
+                <option value="MIT OCW">MIT OCW</option>
+                <option value="Yale OYC">Yale OYC</option>
+                <option value="Stanford">Stanford</option>
+                <option value="YouTube">YouTube</option>
+                <option value="FutureLearn">FutureLearn</option>
+            </select>
+            <select id="levelFilter" class="border rounded-lg px-4 py-2 text-sm">
+                <option value="">All Levels</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+        </div>
+        <p id="resultCount" class="text-sm text-gray-500 mt-2"></p>
+    </div>
+
+    <main class="max-w-6xl mx-auto px-4 pb-12 space-y-10">
+
+        <section id="critical-thinking" class="category-section">
+            <h3 class="text-2xl font-bold text-dark mb-4 flex items-center gap-2"><span>&#129504;</span> Critical Thinking & Logic</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 course-grid"></div>
+        </section>
+
+        <section id="behavioral" class="category-section">
+            <h3 class="text-2xl font-bold text-dark mb-4 flex items-center gap-2"><span>&#129504;</span> Behavioral Science & Psychology</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 course-grid"></div>
+        </section>
+
+        <section id="data-driven" class="category-section">
+            <h3 class="text-2xl font-bold text-dark mb-4 flex items-center gap-2"><span>&#128202;</span> Data-Driven Decision Making</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 course-grid"></div>
+        </section>
+
+        <section id="leadership" class="category-section">
+            <h3 class="text-2xl font-bold text-dark mb-4 flex items-center gap-2"><span>&#127942;</span> Leadership & Management Decisions</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 course-grid"></div>
+        </section>
+
+        <section id="investing" class="category-section">
+            <h3 class="text-2xl font-bold text-dark mb-4 flex items-center gap-2"><span>&#128176;</span> Investing & Financial Decisions</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 course-grid"></div>
+        </section>
+
+        <section id="philosophy" class="category-section">
+            <h3 class="text-2xl font-bold text-dark mb-4 flex items-center gap-2"><span>&#128214;</span> Philosophy & Ethics of Choice</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 course-grid"></div>
+        </section>
+
+        <section class="bg-purple-50 rounded-xl p-8 text-center">
+            <h3 class="text-xl font-bold text-dark mb-3">Apply What You Learn</h3>
+            <p class="text-gray-600 mb-4">Courses teach theory. KeepRule lets you practice with interactive decision scenarios inspired by Buffett, Munger, and other great thinkers.</p>
+            <a href="https://keeprule.com/en/" class="inline-block bg-primary text-white px-8 py-3 rounded-lg hover:bg-purple-700 font-medium" target="_blank" rel="noopener">Try KeepRule Free</a>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-400 mb-4">
+                <a href="https://henu-wang.github.io/decision-toolkit/" class="hover:text-primary">Decision Toolkit</a>
+                <a href="https://henu-wang.github.io/decision-making-blog/" class="hover:text-primary">Decision Blog</a>
+                <a href="https://henu-wang.github.io/mental-models-wiki/" class="hover:text-primary">Mental Models Wiki</a>
+                <a href="https://henu-wang.github.io/decision-making-calculator/" class="hover:text-primary">Decision Calculators</a>
+                <a href="https://henu-wang.github.io/decision-making-research/" class="hover:text-primary">Research Summaries</a>
+                <a href="https://henu-wang.github.io/ai-decision-assistant/" class="hover:text-primary">AI Decision Assistant</a>
+                <a href="https://henu-wang.github.io/behavioral-economics-notes/" class="hover:text-primary">Behavioral Economics</a>
+                <a href="https://henu-wang.github.io/investing-wisdom-quotes/" class="hover:text-primary">Investing Quotes</a>
+            </div>
+            <div class="text-center text-sm text-gray-400">
+                <p>Powered by <a href="https://keeprule.com/en/" class="text-primary hover:underline" target="_blank" rel="noopener">KeepRule</a> &mdash; Practice decisions from Buffett, Munger & more</p>
+                <p class="mt-1">&copy; 2026 Free Decision Making Courses. Curated resource directory.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    document.getElementById('menuBtn').addEventListener('click', function() {
+        document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+
+    const courses = [
+        // Critical Thinking & Logic
+        {cat:"critical-thinking",title:"Introduction to Logic and Critical Thinking",platform:"Coursera",provider:"Duke University",level:"Beginner",duration:"4 weeks",desc:"Learn formal and informal logic, argument evaluation, and common fallacies.",url:"https://www.coursera.org/learn/logic-critical-thinking-duke"},
+        {cat:"critical-thinking",title:"Mindware: Critical Thinking for the Information Age",platform:"Coursera",provider:"University of Michigan",level:"Beginner",duration:"6 weeks",desc:"Statistical reasoning, cost-benefit analysis, and avoiding cognitive traps in everyday decisions.",url:"https://www.coursera.org/learn/mindware"},
+        {cat:"critical-thinking",title:"Critical Thinking & Problem Solving",platform:"edX",provider:"Rochester Institute of Technology",level:"Beginner",duration:"5 weeks",desc:"Structured approaches to analyzing problems and making rational decisions.",url:"https://www.edx.org/learn/critical-thinking"},
+        {cat:"critical-thinking",title:"Logical and Critical Thinking",platform:"FutureLearn",provider:"University of Auckland",level:"Beginner",duration:"8 weeks",desc:"Identify logical fallacies, evaluate arguments, and improve reasoning skills.",url:"https://www.futurelearn.com/courses/logical-and-critical-thinking"},
+        {cat:"critical-thinking",title:"Intellectual Humility: Theory",platform:"Coursera",provider:"University of Edinburgh",level:"Intermediate",duration:"4 weeks",desc:"Explore how intellectual humility improves decision-making by reducing bias and overconfidence.",url:"https://www.coursera.org/learn/intellectual-humility-theory"},
+
+        // Behavioral Science & Psychology
+        {cat:"behavioral",title:"Behavioral Economics in Action",platform:"Coursera",provider:"University of Toronto",level:"Beginner",duration:"4 weeks",desc:"How cognitive biases shape economic decisions. Prospect theory, nudging, and heuristics.",url:"https://www.coursera.org/learn/behavioral-economics"},
+        {cat:"behavioral",title:"Introduction to Psychology",platform:"Khan Academy",provider:"Khan Academy",level:"Beginner",duration:"Self-paced",desc:"Cognitive psychology, decision heuristics, and the science of human judgment.",url:"https://www.khanacademy.org/science/health-and-medicine/mental-health"},
+        {cat:"behavioral",title:"Moral Foundations of Politics",platform:"Coursera",provider:"Yale University",level:"Intermediate",duration:"8 weeks",desc:"How moral psychology influences political and social decision-making.",url:"https://www.coursera.org/learn/moral-politics"},
+        {cat:"behavioral",title:"Introduction to Psychology",platform:"Yale OYC",provider:"Yale University",level:"Beginner",duration:"20 lectures",desc:"Paul Bloom's classic course covering decision psychology, emotion, and rationality.",url:"https://oyc.yale.edu/psychology/psyc-110"},
+        {cat:"behavioral",title:"The Science of Well-Being",platform:"Coursera",provider:"Yale University",level:"Beginner",duration:"10 weeks",desc:"Why our decisions about happiness are often wrong, and how to decide better for well-being.",url:"https://www.coursera.org/learn/the-science-of-well-being"},
+        {cat:"behavioral",title:"Social Psychology",platform:"Coursera",provider:"Wesleyan University",level:"Beginner",duration:"7 weeks",desc:"Group decision dynamics, conformity, persuasion, and social influence on choices.",url:"https://www.coursera.org/learn/social-psychology"},
+
+        // Data-Driven Decision Making
+        {cat:"data-driven",title:"Data-Driven Decision Making",platform:"Coursera",provider:"Google",level:"Beginner",duration:"5 weeks",desc:"Part of Google Data Analytics Certificate. Use data to inform business decisions.",url:"https://www.coursera.org/learn/data-driven-decision-making"},
+        {cat:"data-driven",title:"Statistics and Probability",platform:"Khan Academy",provider:"Khan Academy",level:"Beginner",duration:"Self-paced",desc:"Foundation for understanding risk, probability, and expected value in decisions.",url:"https://www.khanacademy.org/math/statistics-probability"},
+        {cat:"data-driven",title:"Probabilistic Graphical Models",platform:"Coursera",provider:"Stanford University",level:"Advanced",duration:"11 weeks",desc:"Model complex decision systems with Bayesian networks and influence diagrams.",url:"https://www.coursera.org/learn/probabilistic-graphical-models"},
+        {cat:"data-driven",title:"Introduction to Probability and Statistics",platform:"MIT OCW",provider:"MIT",level:"Intermediate",duration:"Self-paced",desc:"MIT's classic probability course. Essential for quantitative decision making.",url:"https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/"},
+        {cat:"data-driven",title:"Decision Making Under Uncertainty",platform:"edX",provider:"Columbia University",level:"Intermediate",duration:"6 weeks",desc:"Frameworks for decisions when outcomes are probabilistic, not certain.",url:"https://www.edx.org/learn/decision-making"},
+        {cat:"data-driven",title:"A/B Testing",platform:"Coursera",provider:"Google",level:"Intermediate",duration:"4 weeks",desc:"Design and analyze experiments to make evidence-based product decisions.",url:"https://www.coursera.org/learn/ab-testing-google"},
+
+        // Leadership & Management
+        {cat:"leadership",title:"Strategic Decision Making",platform:"Coursera",provider:"University of Pennsylvania",level:"Intermediate",duration:"4 weeks",desc:"Game theory and strategic interaction in business and organizational decisions.",url:"https://www.coursera.org/learn/strategic-decision-making"},
+        {cat:"leadership",title:"Decision Making for Leaders",platform:"edX",provider:"University of Michigan",level:"Intermediate",duration:"5 weeks",desc:"Leadership frameworks for high-stakes organizational decisions.",url:"https://www.edx.org/learn/leadership"},
+        {cat:"leadership",title:"Negotiation, Mediation, and Conflict Resolution",platform:"Coursera",provider:"ESSEC Business School",level:"Intermediate",duration:"5 weeks",desc:"Master negotiation as a structured decision-making process.",url:"https://www.coursera.org/learn/negotiation-mediation-conflict-resolution"},
+        {cat:"leadership",title:"Organizational Analysis",platform:"Coursera",provider:"Stanford University",level:"Intermediate",duration:"8 weeks",desc:"How organizations make decisions, including bounded rationality and organizational politics.",url:"https://www.coursera.org/learn/organizational-analysis"},
+        {cat:"leadership",title:"Six Sigma Green Belt",platform:"Coursera",provider:"University System of Georgia",level:"Intermediate",duration:"5 months",desc:"Data-driven decision making for process improvement and quality management.",url:"https://www.coursera.org/specializations/six-sigma-green-belt"},
+
+        // Investing & Financial
+        {cat:"investing",title:"Financial Markets",platform:"Yale OYC",provider:"Yale University",level:"Beginner",duration:"23 lectures",desc:"Robert Shiller's famous course on financial decision making, risk management, and behavioral finance.",url:"https://oyc.yale.edu/economics/econ-252"},
+        {cat:"investing",title:"Introduction to Finance",platform:"Khan Academy",provider:"Khan Academy",level:"Beginner",duration:"Self-paced",desc:"Core financial concepts: present value, compound interest, and investment decision tools.",url:"https://www.khanacademy.org/economics-finance-domain/core-finance"},
+        {cat:"investing",title:"Investment Management",platform:"Coursera",provider:"University of Geneva",level:"Intermediate",duration:"4 weeks",desc:"Portfolio theory, asset allocation, and risk-adjusted decision making.",url:"https://www.coursera.org/learn/investment-management"},
+        {cat:"investing",title:"Finance Theory I",platform:"MIT OCW",provider:"MIT",level:"Advanced",duration:"Self-paced",desc:"MIT Sloan's foundational finance course covering decision-making under uncertainty in markets.",url:"https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/"},
+        {cat:"investing",title:"Personal Finance",platform:"Khan Academy",provider:"Khan Academy",level:"Beginner",duration:"Self-paced",desc:"Practical financial decisions: budgeting, saving, investing basics, and retirement planning.",url:"https://www.khanacademy.org/college-careers-more/personal-finance"},
+
+        // Philosophy & Ethics
+        {cat:"philosophy",title:"Justice",platform:"YouTube",provider:"Harvard University",level:"Beginner",duration:"24 lectures",desc:"Michael Sandel's legendary course on moral reasoning and ethical decision-making.",url:"https://www.youtube.com/playlist?list=PL30C13C91CFFEFEA6"},
+        {cat:"philosophy",title:"Effective Altruism",platform:"Coursera",provider:"Princeton University",level:"Beginner",duration:"6 weeks",desc:"Using evidence and reason to determine the most effective ways to help others.",url:"https://www.coursera.org/learn/effective-altruism"},
+        {cat:"philosophy",title:"Game Theory",platform:"Yale OYC",provider:"Yale University",level:"Intermediate",duration:"24 lectures",desc:"Ben Polak's course on strategic decision-making: Nash equilibrium, commitment, and credibility.",url:"https://oyc.yale.edu/economics/econ-159"},
+        {cat:"philosophy",title:"Model Thinking",platform:"Coursera",provider:"University of Michigan",level:"Intermediate",duration:"12 weeks",desc:"Use mathematical models to make better decisions: tipping points, networks, and complexity.",url:"https://www.coursera.org/learn/model-thinking"},
+        {cat:"philosophy",title:"Introduction to Philosophy",platform:"Coursera",provider:"University of Edinburgh",level:"Beginner",duration:"5 weeks",desc:"Epistemology, free will, and the philosophy of rational choice.",url:"https://www.coursera.org/learn/philosophy"},
+    ];
+
+    function renderCourses(filtered) {
+        const categories = ['critical-thinking','behavioral','data-driven','leadership','investing','philosophy'];
+        categories.forEach(cat => {
+            const section = document.getElementById(cat);
+            const grid = section.querySelector('.course-grid');
+            const catCourses = filtered.filter(c => c.cat === cat);
+            if (catCourses.length === 0) {
+                section.style.display = 'none';
+                return;
+            }
+            section.style.display = '';
+            grid.innerHTML = catCourses.map(c => `
+                <div class="bg-white rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow course-card">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="text-xs px-2 py-0.5 bg-purple-100 text-purple-700 rounded-full">${c.platform}</span>
+                        <span class="text-xs px-2 py-0.5 bg-gray-100 text-gray-600 rounded-full">${c.level}</span>
+                    </div>
+                    <h4 class="font-semibold text-dark mb-1 text-sm">${c.title}</h4>
+                    <p class="text-xs text-gray-500 mb-2">${c.provider} &middot; ${c.duration}</p>
+                    <p class="text-sm text-gray-600 mb-3">${c.desc}</p>
+                    <a href="${c.url}" class="text-sm text-primary hover:underline font-medium" target="_blank" rel="noopener">View Course &rarr;</a>
+                </div>
+            `).join('');
+        });
+        document.getElementById('resultCount').textContent = filtered.length + ' course' + (filtered.length !== 1 ? 's' : '') + ' found';
+    }
+
+    function filterCourses() {
+        const q = document.getElementById('searchInput').value.toLowerCase();
+        const platform = document.getElementById('platformFilter').value;
+        const level = document.getElementById('levelFilter').value;
+        const filtered = courses.filter(c => {
+            const matchQ = !q || c.title.toLowerCase().includes(q) || c.desc.toLowerCase().includes(q) || c.provider.toLowerCase().includes(q);
+            const matchP = !platform || c.platform === platform;
+            const matchL = !level || c.level === level;
+            return matchQ && matchP && matchL;
+        });
+        renderCourses(filtered);
+    }
+
+    document.getElementById('searchInput').addEventListener('input', filterCourses);
+    document.getElementById('platformFilter').addEventListener('change', filterCourses);
+    document.getElementById('levelFilter').addEventListener('change', filterCourses);
+    renderCourses(courses);
+    </script>
+</body>
+</html>
